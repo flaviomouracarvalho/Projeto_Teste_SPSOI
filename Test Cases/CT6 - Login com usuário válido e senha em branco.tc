@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CT6 - Login com usuário válido e senha em branco</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27f4036d-3dfc-4666-bd42-b2044e7f1170</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>53f46a6b-b851-45fb-90c2-4d8b95e56188</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>53f46a6b-b851-45fb-90c2-4d8b95e56188</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

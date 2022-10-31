@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CT8 - Login com usuário inválido e senha em branco</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>adf356e5-2f5d-49b3-a568-67d2b6bafb9e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ac831cb7-2e63-44bf-a8f2-bd18916f36f1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ac831cb7-2e63-44bf-a8f2-bd18916f36f1</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

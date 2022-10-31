@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CT9 - Login com usuário em branco e senha inválida</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5771a81-22d4-4b86-90a6-c7a308c0d82c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>59e76eca-7455-48db-8223-33e70cf3610c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>59e76eca-7455-48db-8223-33e70cf3610c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

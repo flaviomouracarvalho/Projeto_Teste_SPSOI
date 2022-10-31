@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Executando casos de teste</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>97ed4913-9942-4a0b-9f6f-a08cdb6adfbe</testSuiteGuid>
+   <testCaseLink>
+      <guid>d61206b5-5c98-477c-9611-408659358918</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CT1 - Login com usuario e senha válida</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1013667d-20cf-45b6-b50b-8585b31ad76a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dados do login válido</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>1013667d-20cf-45b6-b50b-8585b31ad76a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>55c8a8cf-f5a3-4cc2-9196-359ca3d827c3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1013667d-20cf-45b6-b50b-8585b31ad76a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>c08ff3cc-c638-463d-9680-a22f7f57dc12</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a8ee0cc0-5e0d-4a6f-897c-e6e6ed775d9f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CT2 - Login com usuário válido e uma senha inválida</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>da1fc960-f209-44c0-9174-e2564d25f019</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dados de login inválido</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c4f55a1f-25a5-4abd-b38c-c3cad1422583</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dados do login válido</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c4f55a1f-25a5-4abd-b38c-c3cad1422583</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>c63ab07e-73bb-4af3-90ac-4f15a5e8bb41</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>da1fc960-f209-44c0-9174-e2564d25f019</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>748843ef-4cca-4bc7-82d5-fcef29fc14fb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5a39f71d-ed75-4346-bc37-3622865138e6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description></description>
+         <id>151e5576-1cbf-4a89-8ae5-bc46cf771803</id>
+         <masked>false</masked>
+         <name>password</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/CT3 - Login com usuário inválido e senha válida</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8375315c-3b8f-4dd5-ae8a-e97e56959704</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dados do login válido</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>40d6f6f7-b90d-4f7a-ae7a-db0d66eb44fd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dados de login inválido</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>40d6f6f7-b90d-4f7a-ae7a-db0d66eb44fd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>1cd5ee67-7fa5-47a6-92ea-fcdafc3442b0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8375315c-3b8f-4dd5-ae8a-e97e56959704</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>151e5576-1cbf-4a89-8ae5-bc46cf771803</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>af815ed6-0208-4a8d-afcb-2c9420aa5c74</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CT4 - Login com usuário e senha inválida</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5aca63a2-f52c-4f25-823e-9fbd30e46a6f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dados de login inválido</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>cac01709-e9fb-4761-8e57-f283bedd416b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dados do login válido</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>5aca63a2-f52c-4f25-823e-9fbd30e46a6f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>c3a5648f-993b-4c9d-8709-c4d58b9e6078</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5aca63a2-f52c-4f25-823e-9fbd30e46a6f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>452ccd87-f784-4df9-8ae3-7fe774679250</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fa380379-9298-41ad-89ab-6faacacee313</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CT5 - Login com usuário e senha em branco</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dc3e004b-5006-4e4c-b7b0-4a92a7cabca9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CT6 - Login com usuário válido e senha em branco</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e85d7f88-5d2f-4cda-a26b-090ac685edc3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dados do login válido</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e85d7f88-5d2f-4cda-a26b-090ac685edc3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>53f46a6b-b851-45fb-90c2-4d8b95e56188</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c7f0e28a-0a33-4567-aded-23a9a2cc0879</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CT7 - Login com usuário em branco e senha válida</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>80359bb5-447c-4a6d-b908-ad9e171c2e8f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dados do login válido</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>80359bb5-447c-4a6d-b908-ad9e171c2e8f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>85c67876-b1bf-49d3-9100-b34a4c4ceeff</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>330ad457-8171-4d24-8a0e-da2af5dda586</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CT8 - Login com usuário inválido e senha em branco</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6d6b5e0e-ef59-4941-95c5-5a18bc12036c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dados de login inválido</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>6d6b5e0e-ef59-4941-95c5-5a18bc12036c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>ac831cb7-2e63-44bf-a8f2-bd18916f36f1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5721e01c-2a49-4b01-9fbb-3d1e80f3eeae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CT9 - Login com usuário em branco e senha inválida</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>23af1c45-bbdd-449a-b73c-f1f4f08f12b2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dados de login inválido</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>23af1c45-bbdd-449a-b73c-f1f4f08f12b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>59e76eca-7455-48db-8223-33e70cf3610c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

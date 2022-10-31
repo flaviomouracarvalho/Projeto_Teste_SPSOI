@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CT7 - Login com usuário em branco e senha válida</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e919d85a-9857-4b1b-ae14-d0f21150e1e4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>85c67876-b1bf-49d3-9100-b34a4c4ceeff</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>85c67876-b1bf-49d3-9100-b34a4c4ceeff</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

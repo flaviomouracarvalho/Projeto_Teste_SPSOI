@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CT5 - Login com usuário e senha em branco</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdd8da1b-21d2-472a-b22e-e681403f8d1b</testCaseGuid>
+</TestCaseEntity>

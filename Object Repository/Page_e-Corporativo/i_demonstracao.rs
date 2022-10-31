@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_demonstracao</name>
+   <tag></tag>
+   <elementGuidId>b1ae8e23-731d-4171-bacd-71fccca4fa63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span > i</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='head-nav']/div/div/ul/li/a/span/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>3e7771fd-18f0-49b2-a14e-b7a13acfeaf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>@demonstracao</value>
+      <webElementGuid>2abd0dc8-9794-4834-993b-8acc58c28bcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;head-nav&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;navbar-collapse&quot;]/ul[@class=&quot;nav navbar-nav user-nav navbar-right&quot;]/li[@class=&quot;dropdown profile_menu&quot;]/a[@class=&quot;dropdown-toggle&quot;]/span[1]/i[1]</value>
+      <webElementGuid>e15032d1-43db-47d7-ac86-b37d82db5bde</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='head-nav']/div/div/ul/li/a/span/i</value>
+      <webElementGuid>74463e19-5230-489d-b627-f6bb5a59c79f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Válida até: 05/02/2023'])[1]/following::i[3]</value>
+      <webElementGuid>c7df6996-27bd-40bf-9ec2-84955ffa460e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='@demonstracao']/parent::*</value>
+      <webElementGuid>58f58be5-d169-4633-b9e2-b59258a1e412</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/i</value>
+      <webElementGuid>8128eccb-c794-40b7-a0de-5b1217dff507</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//i[(text() = '@demonstracao' or . = '@demonstracao')]</value>
+      <webElementGuid>d007611a-1596-484f-a529-43a3bee122e9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
